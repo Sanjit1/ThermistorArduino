@@ -1,5 +1,7 @@
 /*
  * 
+ * This code snippet uses arduinos onboard ADC(Analog to digital Convertor). 
+ * Look at externalAdc for code using Ads1115
  * go to sanjit1.github.io/Calibrator for more info
    Reference Formulas:
    Voltage Divider
