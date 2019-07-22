@@ -1,4 +1,6 @@
 /*
+ * 
+ * go to sanjit1.github.io/Calibrator for more info
    Reference Formulas:
    Voltage Divider
             _____
@@ -16,15 +18,13 @@
    Steinhart-hart Equation:
    1/T = A + B(ln(R)) + C(ln^3(R))
 
-
-
 */
 
 // Voltage Divider Variables
 double opVolt = 5; // The voltage at which Arduino operates
 double basRes = 10000; // resistance R1
 
-// Steinhart-hart Variables
+// Steinhart-hart Variables To calibrate, go to sanjit1.github.io/Calibrator/webCalibrator.html
 double A = 0.0021085081731127137;
 double B = 0.00007979204726779823;
 double C = 6.535076314649466e-7;
